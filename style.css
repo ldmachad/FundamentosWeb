@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(45,45,45);
+    background: radial-gradient(circle, rgba(45,45,45,1) 0%, rgba(0,0,0,1) 100%);   
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: #333;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+section#sobre-mim {
+    padding: 50px;
+    text-align: left;
+}
+
+section#contato {
+    padding: 50px;
+    text-align: center;
+}
+
+#about-img {
+    display: flex;
+    justify-content: center;
+}
+
+#about-img img{
+    border-radius: 24px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    color: #ffffff;
+}
+
+button {
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff9900;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #ff6600;
+}
