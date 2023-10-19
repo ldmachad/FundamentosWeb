@@ -60,12 +60,12 @@ form {
     margin: 0 auto;
 }
 
-label, input {
+label, input, textarea {
     display: block;
     margin-bottom: 10px;
 }
 
-input {
+input, textarea {
     width: 100%;
     padding: 10px;
     background-color: #333;
